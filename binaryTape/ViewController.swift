@@ -101,11 +101,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let myIntDistance = abs(Int(distance))
         
         // Converts the Aboslute Integer value of distance to a String, base 2 binary representation
-        let myDistaneInBinary = String(myIntDistance, radix: 2)
+        let myDistanceInBinary = String(myIntDistance, radix: 2)
         
         
         
-        updateText(text: "\(myDistaneInBinary)", atPosition: end.position)
+        updateText(text: "\(myDistanceInBinary)", atPosition: end.position)
         
         //        distance = √ ((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)
         
